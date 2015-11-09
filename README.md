@@ -1,5 +1,5 @@
 
-## [NodeSchool Istanbul](nodeschool.github.io/istanbul) static page generator
+## [NodeSchool Istanbul](http://nodeschool.io/istanbul) static page generator
 
 
 ##Installation

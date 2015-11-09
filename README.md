@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## (NodeSchool Istanbul)[nodeschool.github.io/istanbul] static page generator
 
 
@@ -20,3 +21,7 @@ localhost:8080
 wintersmith build
 
 ````
+=======
+# nodeschool-istanbul
+NodeSchool Istanbul static page generator
+>>>>>>> 8c38b523a6bf39f7234c6614e6f8997b7baa3b49

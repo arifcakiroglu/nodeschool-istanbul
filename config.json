@@ -1,0 +1,27 @@
+{
+  "locals": {
+    "url": "http://nodeschool.io/istanbul",
+    "baseUrl": "",
+    "name": "NodeSchool Istanbul",
+    "owner": "Arif Cakiroglu",
+    "description": "nodeshool.io/istanbul static page generator"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 10
+  }
+}

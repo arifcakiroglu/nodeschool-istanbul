@@ -1,0 +1,128 @@
+
+extends layout
+
+
+block content
+  include author
+  
+  // Begin: Events
+  section.event
+    h2 
+      span.octicon.octicon-location
+      |Yaklaşan etkinlik
+    p 
+      code NodeSchool İstanbul #1
+      |  etkinliğimiz 
+      code Ocak 2016
+      | 'da düzenlemeyi planlıyoruz. Mekan ve sponsor arayışımız var.
+      | Yardımlarınız için teşekkür ederiz.
+    a.typeform-share.link.btn.outline(href='https://nodejsdersleri.typeform.com/to/Fa5hLe', data-mode='2', target='_blank') Etkinliğe Katıl
+    
+  // End: Events  
+  
+  section.terms.clearfix
+  
+    h2 NodeSchool, Nodejs ve Javascript öğrenmenize yardımcı olan bir atölyedir. 
+      
+    .term
+      .chrome
+        span.button.button-term.close
+        span.button.button-term.min
+        span.button.button-term.max
+      .shell
+        code npm install -g learnyounode
+        code learnyounode
+    .term
+      .chrome
+        span.button.button-term.close
+        span.button.button-term.min
+        span.button.button-term.max
+      .shell
+        .workshopper
+          code » HELLO WORLD
+          code » BABY STEPS
+          code » MY FIRST I/O!
+    
+  // Begin: Subscribe
+  section.subscribe-wrap
+    h2 Etkinliklerden haberdar olmak için kayıt ol
+    p Nodeschool Istanbul olarak düzenleyeceğimiz etkinliklerden haberdar olmak için kayıt olabilirsiniz. 
+    br
+    | Asla spam mail göndermeyeceğiz. 
+    span.octicon.octicon-thumbsup
+      
+    div.subscribe
+    
+      // Begin MailChimp Signup Form
+      #mc_embed_signup
+        form#mc-embedded-subscribe-form.validate(action='//nodeschool.us12.list-manage.com/subscribe/post?u=2df6d39a778016a0084b7ceb0&id=c01e078a8c', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+          #mc_embed_signup_scroll
+            
+            .mc-field-group
+              label(for='mce-FNAME') 
+                input#mce-FNAME(type='text', value='', name='FNAME',placeholder='isminiz')
+            .mc-field-group
+              label(for='mce-EMAIL') 
+                input#mce-EMAIL.required.email(type='email', value='', name='EMAIL', placeholder='e-posta adresiniz')
+            #mce-responses
+              #mce-error-response.response(style='display:none')
+              #mce-success-response.response(style='display:none')
+            // real people should not fill this in and expect good things - do not remove this or risk form bot signups
+            div(style='position: absolute; left: -5000px;')
+              input(type='text', name='b_2df6d39a778016a0084b7ceb0_c01e078a8c', tabindex='-1', value='')
+            
+            button#mc-embedded-subscribe.button.btn.subscribe-button(type='submit', name='subscribe')
+              span.octicon.octicon-mail
+              |Kayıt Ol
+        // End mc_embed_signup
+    
+
+          
+          
+  // End: Subscribe  
+    
+  // Begin: Subscribe
+  section.subscribe-wrap.mentor
+    h2 Uzman olarak kayıt ol 
+    p Daha fazla bilgi için 
+      a(href='http://nodeschool.io/tr/mentor-at-event.html') NodeSchool Etkinliklerinde Uzman Olmak
+    div.subscribe
+      // Begin MailChimp Signup Form
+      #mc_embed_signup
+        form#mc-embedded-subscribe-form.validate(action='//nodeschool.us12.list-manage.com/subscribe/post?u=2df6d39a778016a0084b7ceb0&id=a3d9e625ed', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+          #mc_embed_signup_scroll
+            
+            .mc-field-group
+              label(for='mce-FNAME') 
+                input#mce-FNAME(type='text', value='', name='FNAME',placeholder='isminiz')
+            .mc-field-group
+              label(for='mce-EMAIL')
+                input#mce-EMAIL.required.email(type='email', value='', name='EMAIL', placeholder='e-posta adresiniz')
+                
+            #mce-responses
+              #mce-error-response.response(style='display:none')
+              #mce-success-response.response(style='display:none')
+            // real people should not fill this in and expect good things - do not remove this or risk form bot signups
+            div(style='position: absolute; left: -5000px;')
+              input(type='text', name='b_2df6d39a778016a0084b7ceb0_a3d9e625ed', tabindex='-1', value='')
+            button#mc-embedded-subscribe.button.btn.subscribe-button(type='submit', name='subscribe')
+              span.octicon.octicon-mail
+              |Kayıt Ol
+      // End mc_embed_signup
+      
+  // End: Subscribe    
+  
+  // Begin: Events
+  section
+    h2 İletişim ve daha fazla bilgi için 
+    hr   
+    p Daha fazla bilgi için nodejsdersleri@gmail.com, sorularınızı 
+      a(href='http://www.twitter.com/nodejsdersleri')@nodejsdersleri 
+    |  ya da 
+    a(href="https://gitter.im/nodeschool/istanbul") gitter
+    |  üzerinden sorabilirsiniz.
+    br  
+    a.imglink(href="https://gitter.im/nodeschool/istanbul")
+      img(src="https://badges.gitter.im/Join%20Chat.svg", alt="")
+  // End: Events
+  

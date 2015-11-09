@@ -1,0 +1,20 @@
+
+extends layout
+
+
+
+block append vars
+  - bodyclass = 'article-detail'
+
+block prepend title
+  | #{ page.title + ' - '}
+
+
+
+block content
+  section.article.markdown-body
+    div.content!= typogr(page.html).typogrify()
+    
+  
+    
+    

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "moment": "2.3.x",
+    "typogr": "0.5.x"
+  },
+  "private": "true"
+}

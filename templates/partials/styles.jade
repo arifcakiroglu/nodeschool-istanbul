@@ -1,0 +1,10 @@
+- var quid = '?v='+ (Math.random().toString(16)+"000000000").substr(2,8)  
+
+link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
+link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro')
+
+link(rel='stylesheet', href=locals.url+'/css/normalize.css'+quid)
+link(rel='stylesheet', href=locals.url+'/lib/highlight/styles/github.css'+quid)
+link(rel='stylesheet', href=locals.url+'/fonts/octicons/octicons.css'+quid)
+link(rel='stylesheet', href=locals.url+'/fonts/socicon/socicon.css'+quid)
+link(rel='stylesheet', href=locals.url+'/css/main.css'+quid)
